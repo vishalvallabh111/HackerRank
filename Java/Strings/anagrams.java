@@ -1,7 +1,7 @@
-// O(n)
-
+// Complexity O(n)
+// https://www.hackerrank.com/challenges/java-anagrams
 static boolean isAnagram(String a, String b) {
-    if(a.length()!=b.length() return false;
+    if(a.length()!=b.length()) return false;
     Map<Character, Integer> freq=new HashMap<>();        
     for(int i=0;i<a.length(); ++i){
         int f=0;
