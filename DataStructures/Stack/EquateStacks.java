@@ -1,3 +1,9 @@
+/**
+Prepare stack with cylinders(current height and height so far(hsf)).
+check the hieghts, which stack has more height pop the cylinders
+and check hsf again untill the height is adjusted or stacks are empty,
+in which case return height 0
+*/
 import java.io.*;
 import java.util.*;
 import java.text.*;
