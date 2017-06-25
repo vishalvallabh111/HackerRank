@@ -59,7 +59,7 @@ public class AllAnagrams {
     }
     public static String arrayToString(ArrayList<String> rst){
         String[] result=rst.toArray(new String[rst.size()]);
-        Arrays.sort(result);
+        Arrays.sort(result, String::compareToIgnoreCase);
         String r="";
         for(String s: result)
             r+=(s+" ");
