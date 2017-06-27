@@ -1,3 +1,5 @@
+
+// It is assumed that all the elements are from 1 to 100, else we may need to find the range of numbers
 import java.io.*;
 import java.util.*;
 import java.text.*;
